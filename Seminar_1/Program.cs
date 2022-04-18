@@ -47,3 +47,43 @@ else
 }
 */
 
+// Задача 4.
+
+/*
+Console.Write("Input integer number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int cur;
+if(num<0)
+{
+    cur =num;
+    num=num*(-1);
+}
+else
+{
+    cur = -num;
+}
+while(cur<=num)
+
+{
+    Console.Write(cur +" ");
+    cur++;
+}
+*/
+
+// Задача 5.
+
+/*
+Console.Write("Input integer number '>99 & <1000': ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num>999 || num<100)
+{
+    Console.WriteLine("Incorrect");
+}
+
+else
+{
+   int cur = num % 10;
+   Console.WriteLine(cur);
+}
+*/
