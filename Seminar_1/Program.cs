@@ -16,3 +16,34 @@ if (num1 * num1 == num2)
 else
     Console.WriteLine("Второе не число является квадратом первого");
     */
+
+    //Задача 3.
+    
+    /*
+Console.Write("Input number of weekday: ");
+int day = Convert.ToInt32(Console.ReadLine());
+
+if (day>7 || day<1)
+{
+    Console.WriteLine("incorrect number day");
+}
+else
+{
+    if(day == 1) 
+        Console.WriteLine("It's Monday");
+    if(day == 2) 
+        Console.WriteLine("It's Tuesday");
+    if(day == 3) 
+        Console.WriteLine("It's Wednesday");
+    if(day == 4) 
+        Console.WriteLine("It's Thursday");
+    if(day == 5) 
+        Console.WriteLine("It's Friday");
+    if(day == 6) 
+        Console.WriteLine("It's Saturday");
+    if(day == 7) 
+        Console.WriteLine("It's Sunday");
+    
+}
+*/
+
